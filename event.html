@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!--Google Fonts 지정-->
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <!--작성할 css 구간-->
+    <link href="./css/style.css" rel="stylesheet">
+    <title>DogMovie-EVENT</title>
+    <link rel="icon" type="image/png" href="./img/favicon-16x16.png">
+</head>
+<header>
+    <div>
+        <img src="./img/header_bg.jpg">
+    </div>
+    <div>
+        <div id="header_logogin">
+            <h1><a href="index.html"><img class="logo" src="./img/logo.JPG" alt="홈"></a></h1>
+            <nav>
+                <ul class="login-nav">
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="header_main">
+            <ul class="main-nav">
+                <li><a href="./sub.html">영화</a></li>
+                <li><a href="#">예매</a></li>
+                <li><a href="./event.html">이벤트</a></li>
+                <li><a href="#">스토어</a></li>
+            </ul>
+            <div id="searchdiv">
+                <form action="#">
+                    <input type="text" id="search" name="search-text">
+                    <input type="submit" class="button" value="검색">
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+
+<body>
+    <div id="event-container">
+        <div id="event1"><img src="./img/event_img/event1_manwon.jpg" alt="event1"></div>
+        <div id="event2"><img src="./img/event_img/event2_student.jpg"></div>
+        <div id="event3"><img src="./img/event_img/event3_night.jpg"></div>
+        <div id="event4"><img src="./img/event_img/event4_culture.png"></div>
+    </div>
+
+    
+    <div id="form-body">
+    <div id="review">
+        <div id="review-title">[리뷰작성 이벤트]</div>
+        <div id="review-content">TOP3 영화를 관람하고 리뷰를 작성하면 스타벅스 커피가??!!</div>
+        <div id="form-container">
+            <form action="#" id="event-form" method="post">
+                <div class="form-group">
+                    <label for="search">ID</label>
+                    <input type="text" id="search" name="id" placeholder="아이디 입력">
+                </div>
+        
+                <div class="form-group">
+                    <label for="movie">영화 선택</label>
+                    <select name="movie" id="movie">
+                        <option value="1">승부</option>
+                        <option value="2">로비</option>
+                        <option value="3">헤레틱</option>
+                    </select>
+                </div>
+        
+                <div class="form-group">
+                    <label for="grade">평점</label>
+                    <select name="grade" id="grade">
+                        <option value="0">0</option>
+                        <option value="0.5">0.5</option>
+                        <option value="1">1</option>
+                        <option value="1.5">1.5</option>
+                        <option value="2">2</option>
+                        <option value="2.5">2.5</option>
+                        <option value="3">3</option>
+                        <option value="3.5">3.5</option>
+                        <option value="4">4</option>
+                        <option value="4.5">4.5</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+        
+                <div class="form-group">
+                    <label for="message">한줄평</label>
+                    <textarea id="message" name="your-message" placeholder="한줄평을 입력하세요"></textarea>
+                </div>
+        
+                <input type="submit" class="formbutton" value="제출하기">
+            </form>
+        </div>
+    </div>
+    </div>
+</body>
+
+<footer>
+    <div id="etc_info">
+        <span><a href="#">회사소개</a></span><span>|</span>
+        <span><a href="#">이용약관</a></span><span>|</span>
+        <span style="font-weight: bold; border-bottom: 1px solid black;"><a href="#">개인정보처리방침</a></span><span>|</span>
+        <span><a href="#">이메일주소무단수집거부</a></span><span>|</span>
+        <span><a href="#">채용안내</a></span><span>|</span>
+    </div>
+    <div id="company_info">
+        <div>(48111) 부산광역시 해운대구 무슨 동
+        <span>대표이메일: dogmovie@movies.com</span>
+        <span>고객센터: 1500-0000(유료)</span></div>
+        <div>대표이사: 김멍멍 | 사업자등록번호 111-222-334455 | 통신판매업신고번호: 제1234호 <span><a href="#">사업자정보확인하기</a></span></div>
+        <div>ⓒ DogMovie</div>
+    </div>
+</footer>
+</html>

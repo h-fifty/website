@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!--Google Fonts 지정-->
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <!--작성할 css 구간-->
+    <link href="./css/style.css" rel="stylesheet">
+    <title>DogMovie-MAIN</title>
+    <link rel="icon" type="image/png" href="./img/favicon-16x16.png">
+</head>
+<header>
+    <div>
+        <img src="./img/header_bg.jpg">
+    </div>
+    <div>
+        <div id="header_logogin">
+            <h1><a href="index.html"><img class="logo" src="./img/logo.JPG" alt="홈"></a></h1>
+            <nav>
+                <ul class="login-nav">
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="header_main">
+            <ul class="main-nav">
+                <li><a href="./sub.html">영화</a></li>
+                <li><a href="#">예매</a></li>
+                <li><a href="./event.html">이벤트</a></li>
+                <li><a href="#">스토어</a></li>
+            </ul>
+            <div id="searchdiv">
+                <form action="#">
+                    <input type="text" id="search" name="search-text">
+                    <input type="submit" class="button" value="검색">
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+
+<body>
+    <div id="poster">
+        <img src="./img/main_bg2.JPG" alt="main-movie">
+    </div>
+    <div id="top3">
+        <div id="top3title">TOP3</div>
+        <div id="top3movie">
+            <ul>
+                <li><a href="./sub.html"><img src="./img/movie1.jpg" alt="top3-movie1"></a></li>
+                <li class="subject">승부</li>
+                <li class="grade">평점: 4.5/5 | 예매율: 97%</li>
+            </ul>
+            <ul>
+                <li><a href="#"><img src="./img/movie2.jpg" alt="top3-movie2"></a></li>
+                <li class="subject">로비</li>
+                <li class="grade">평점: 4.5/5 | 예매율: 97%</li>
+            </ul>
+            <ul>
+                <li><a href="#"><img src="./img/movie3.jpg" alt="top3-movie3"></a></li>
+                <li class="subject">헤레틱</li>
+                <li class="grade">평점: 4.5/5 | 예매율: 97%</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <div id="etc_info">
+        <span><a href="#">회사소개</a></span><span>|</span>
+        <span><a href="#">이용약관</a></span><span>|</span>
+        <span style="font-weight: bold; border-bottom: 1px solid black;"><a href="#">개인정보처리방침</a></span><span>|</span>
+        <span><a href="#">이메일주소무단수집거부</a></span><span>|</span>
+        <span><a href="#">채용안내</a></span><span>|</span>
+    </div>
+    <div id="company_info">
+        <div>(48111) 부산광역시 해운대구 무슨 동
+        <span>대표이메일: dogmovie@movies.com</span>
+        <span>고객센터: 1500-0000(유료)</span></div>
+        <div>대표이사: 김멍멍 | 사업자등록번호 111-222-334455 | 통신판매업신고번호: 제1234호 <span><a href="#">사업자정보확인하기</a></span></div>
+        <div>ⓒ DogMovie</div>
+    </div>
+</footer>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!--Google Fonts 지정-->
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <!--작성할 css 구간-->
+    <link href="./css/style.css" rel="stylesheet">
+    <title>DogMovie-SUB</title>
+    <link rel="icon" type="image/png" href="./img/favicon-16x16.png">
+</head>
+<header>
+    <div>
+        <img src="./img/header_bg.jpg">
+    </div>
+    <div>
+        <div id="header_logogin">
+            <h1><a href="index.html"><img class="logo" src="./img/logo.JPG" alt="홈"></a></h1>
+            <nav>
+                <ul class="login-nav">
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="header_main">
+            <ul class="main-nav">
+                <li><a href="./sub.html">영화</a></li>
+                <li><a href="#">예매</a></li>
+                <li><a href="./event.html">이벤트</a></li>
+                <li><a href="#">스토어</a></li>
+            </ul>
+            <div id="searchdiv">
+                <form action="#">
+                    <input type="text" id="search" name="search-text">
+                    <input type="submit" class="button" value="검색">
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+
+<body>
+    <div id="subBody">
+        <main>
+            <table>
+                <tr>
+                    <td rowspan="5"><img src="./img/movie1.jpg"></td>
+                    <td class="movieth">제목</td>
+                    <td class="movietd">승부</td>
+                </tr>
+                <tr>
+                    <td class="movieth">개봉일자</td>
+                    <td class="movietd">2025.03.26</td>
+                </tr>
+                <tr>
+                    <td class="movieth">감독</td>
+                    <td class="movietd">김형주</td>
+                </tr>
+                <tr>
+                    <td class="movieth">배우</td>
+                    <td class="movietd">이병헌 ,  유아인 ,  고창석 ,  현봉식 ,  김강훈 ,  문정희 ,  조우진</td>
+                </tr>
+                <tr>
+                    <td class="movieth">기본정보</td>
+                    <td class="movietd">12세이상관람가, 114분, 한국</td>
+                </tr>
+                <tr>
+                    <td class="reserBotton"colspan="3"><input type="submit" class="button" value="예매하기"></td>
+                </tr>
+            </table>
+            
+            <div id="content">
+                세계 최고 바둑 대회에서 국내 최초 우승자가 된 조훈현.<br>
+                전 국민적 영웅으로 대접받던 그는 바둑 신동이라 불리는 이창호를 제자로 맞는다.<br>
+                <br>
+                “실전에선 기세가 8할이야”<br>
+                제자와 한 지붕 아래에서 먹고 자며 가르친 지 수년.<br>
+                모두가 스승의 뻔한 승리를 예상했던 첫 사제 대결에서<br>
+                조훈현은 전 국민이 지켜보는 가운데, 기세를 탄 제자에게 충격적으로 패한다.<br>
+                오랜만에 패배를 맛본 조훈현과 이제 승부의 맛을 알게 된 이창호<br>
+                조훈현은 타고난 승부사적 기질을 되살리며 다시 한번 올라갈 결심을 하게 되는데…<br>
+            </div>
+        </main>
+        
+        <aside>
+            <img src="./img/event_img/event1_manwon.jpg">
+        </aside>
+    </div>
+</body>
+
+<footer>
+    <div id="etc_info">
+        <span><a href="#">회사소개</a></span><span>|</span>
+        <span><a href="#">이용약관</a></span><span>|</span>
+        <span style="font-weight: bold; border-bottom: 1px solid black;"><a href="#">개인정보처리방침</a></span><span>|</span>
+        <span><a href="#">이메일주소무단수집거부</a></span><span>|</span>
+        <span><a href="#">채용안내</a></span><span>|</span>
+    </div>
+    <div id="company_info">
+        <div>(48111) 부산광역시 해운대구 무슨 동
+        <span>대표이메일: dogmovie@movies.com</span>
+        <span>고객센터: 1500-0000(유료)</span></div>
+        <div>대표이사: 김멍멍 | 사업자등록번호 111-222-334455 | 통신판매업신고번호: 제1234호 <span><a href="#">사업자정보확인하기</a></span></div>
+        <div>ⓒ DogMovie</div>
+    </div>
+</footer>
+
+
+</html>
